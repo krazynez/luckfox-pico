@@ -26,7 +26,9 @@ rc-update add sshd default
 # Extra stuff
 apk add mtd-utils-ubi
 apk add bottom
-apk add neofetch
+apk add py3
+apk add py3-pycryptodome
+apk add py3-pycryptodomex
 
 # Clear apk cache
 rm -rf /var/cache/apk/*
