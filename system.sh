@@ -3,16 +3,16 @@
 ROOTFS_NAME="rootfs-alpine.tar.gz"
 DEVICE_NAME="pico-mini-b"
 
-while getopts ":f:d:" opt; do
-  case ${opt} in
-    f) ROOTFS_NAME="${OPTARG}" ;;
-    d) DEVICE_NAME="${OPTARG}" ;;
-    ?)
-      echo "Invalid option: -${OPTARG}."
-      exit 1
-      ;;
-  esac
-done
+#while getopts ":f:d:" opt; do
+#  case ${opt} in
+#    f) ROOTFS_NAME="${OPTARG}" ;;
+#    d) DEVICE_NAME="${OPTARG}" ;;
+#    ?)
+#      echo "Invalid option: -${OPTARG}."
+#      exit 1
+#      ;;
+#  esac
+#done
 
 DEVICE_ID="6"
 case $DEVICE_NAME in
