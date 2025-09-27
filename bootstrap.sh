@@ -28,7 +28,7 @@ apk add mtd-utils-ubi
 apk add bottom
 apk add py3
 apk add py3-pycryptodome
-apk add py3-pycryptodomex
+#apk add py3-pycryptodomex
 apk add git
 
 git clone https://github.com/krazynez/upysweeper.git
